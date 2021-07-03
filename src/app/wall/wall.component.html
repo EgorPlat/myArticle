@@ -1,0 +1,11 @@
+<div class="menu">
+    <button class="menu-btn"><a [routerLink]="['profile']">Профиль</a></button>
+    <button class="menu-btn" [routerLink]="['catalog']">Список товаров</button>
+    <button class="menu-btn" [routerLink]="['basket']">Корзина</button>
+    <button class="menu-btn" [routerLink]="['orders']">Отзывы</button>
+    <button class="menu-btn" [routerLink]="['popular']">Популярное</button>
+    <img src="{{this.userWallImageUrl}}" id = "profileImg"alt="">
+    <span class="name">{{this.userService.userName}}</span>
+</div>
+<router-outlet></router-outlet>
+ 

@@ -1,0 +1,16 @@
+.container {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(189, 205, 228);
+    margin-top: 5%;
+    color: white;
+}
+label {
+    color: black;
+}
+.text-error {
+    color: red;
+}
+.ask {
+    color: black;
+}

@@ -1,0 +1,16 @@
+.callBackMenu {
+    width: 80%;
+    margin: 10%;
+    color: white;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+.basketImage {
+    width: 100px;
+    height: 100px;
+}
+#addressSpan {
+    color: rgb(238, 153, 206);
+}
+#header {
+    margin-left: 5%;
+}

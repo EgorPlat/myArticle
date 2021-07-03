@@ -1,0 +1,41 @@
+<div class="scrollTable">
+  <p align = "center" class="basketInfo">Сумма корзины: {{this.basketService.countBasketItem$ | async}} Рублей ( без учета доставки )</p>
+   <table align="center">
+    <tr>
+      <th colspan="2">Модель</th>
+      <th>Цена</th>
+      <th>Описание</th>
+      <th>Артикул товара</th>
+      <th>Информация</th>
+      <th>Удалить</th>
+    </tr>
+    <tr *ngFor = "let item of this.basketService._newBasketItem$ | async">
+      <td><img class = "basketImages" src="{{item.photo}}"></td>
+      <td>{{item.name}}</td>
+      <td>{{item.price}} Руб</td>
+      <td>{{item.description}}</td>
+      <td>{{item.article}}</td>
+      <td><button class="moreInfo" (click) = "openDialog(item)">Информация</button></td>
+      <td><button class="deleteBtn" (click) = "removeItem(item)">X</button></td>
+    </tr>
+</table>  
+</div>
+
+
+
+<div [ngClass]="{invisible: visibility}" class="moreInfoCont">
+<div class="row">
+  <div class="col">
+   <img src="{{this.moreImage[0].img1}}" alt="Фото 1" class="moreImage">
+  </div>
+  <div class="col">
+    <img src="{{this.moreImage[0].img2}}" alt="Фото 1" class="moreImage">
+  </div>
+</div>
+<button (click)="closeDialog()" id="closeDialog">X</button>
+</div>
+
+<div align = "center" class="deliveryBlock">
+  <button (click) = "deliveryMenu()" align = "center" id="buttonDelivery">Открыть меню доставки:</button>
+  <router-outlet></router-outlet>
+</div>

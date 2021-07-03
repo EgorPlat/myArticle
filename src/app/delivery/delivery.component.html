@@ -1,0 +1,43 @@
+<div class="blockDelivery">
+    <h3 class="header" align = "center">Оформи доставку:</h3>
+    <hr>
+    <div class="formDelivery">
+        <form action="post" [formGroup] = 'formDelivery'>
+            <div class="row">
+                <div class="col">
+                   <label for="userName">Ваше Имя:</label>
+                   <input 
+                   type="text" 
+                   formControlName = "userName" 
+                   name="userNameAtFormDelivery"
+                   readonly
+                   #userName
+                   >
+                </div>
+                <div class="col">
+                   <label for="userName">Ваш Телефон:</label>
+                   <input 
+                   type="text" 
+                   formControlName = "userPhone" 
+                   placeholder="(без 8 или через +7)"
+                   #userPhone
+                   >
+                </div>
+            </div>
+            <div align = "center">
+                <label for="userName">Ваш Адрес(максимально подробно):</label><br>
+                <textarea 
+                cols="60" 
+                rows="5"
+                formControlName = "userAddress"
+                #userAddress
+                ></textarea>
+            </div>
+        </form>
+        <button 
+        class="btn btn-success" 
+        (click) = "sendNewUserDeliveryOrder(userName.value, userPhone.value, userAddress.value)"
+        [disabled] = "formDelivery.invalid"
+        >Заказать вывоз</button>
+    </div>
+</div>

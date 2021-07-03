@@ -1,0 +1,14 @@
+<div class="category" align = "center">
+  <br>
+  <input type="text" placeholder="Введите для поиска товаров" (ngModelChange) = "filter()" [(ngModel)] = 'needItem'>
+  <a class="categoryBtn" *ngFor = "let btn of category" (click)="sort(btn.name)"><span id="hrefText">{{btn.name.toUpperCase()}}</span></a>
+</div>
+<div class="main-container">
+  <div class="card" *ngFor = "let item of filteredCatalog">
+    <img src="{{item.photo}}" alt="Товар" style="width:298px; height: 430px;">
+    <h3>{{item.name}}</h3>
+    <p class="price">{{item.price}}</p>
+    <p>{{item.description}}</p>
+    <p><button (click) = "addToBasket(item)">Добавить в корзину</button></p>
+  </div>
+</div> 

@@ -1,0 +1,32 @@
+<div class="profileTitle">
+    <br>
+     <img src="{{this.userImageUrl}}" alt="" id = "profileImg">
+   <h3 align = "center">{{this.userService.userName}}</h3>
+   <hr> 
+   <div class="profileSetting" align = "center">
+       <div class="row">
+           <div class="col">
+              <label for="newName">Установить новое имя:</label>
+              <input type="text" placeholder="Укажите новое Имя" #newName><br>
+              <span class = "sosMessage" title="Поле 'Имя' должно удовлятворять следующим критериям:
+               1)Кол-во символов до 15
+               2)Оно не должно быть пустым
+               3)Желательно* , чтобы оно не содержало цифры
+               ">
+                        Наведи, чтобы узнать требования к имени:
+              </span>
+           </div>
+           <div class="col">
+              <label for="newName">Установить новый аватар:</label>
+              <input type="text" placeholder="Укажите URL-изображения" #newImg><br>
+              <span class = "sosMessage" title="Чтобы найти URL-изображения, сделайте щелчок правой кнопкой мыши по изображению и выберите пункт 'Скопировать ссылку на изображение'">
+                        Наведи, чтобы узнать: Как найти URL?
+              </span>
+           </div>
+       </div>
+       <br>
+       <button type="button" class="btn btn-success" (click)="setSettings(newName.value, newImg.value)">Сохранить новые настройки</button>
+   </div>
+</div>
+
+<app-callback></app-callback>

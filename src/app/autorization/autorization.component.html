@@ -1,0 +1,46 @@
+<div class="form-group container" align = "center">
+    <form action="post" [formGroup]="formLog">
+        <div class="title" align = "center">
+            <h1>Добро пожаловать!</h1>
+            <hr>
+        </div>
+        <div>
+            <label for="login">Ваш Логин:</label>
+            <input type="text"
+            placeholder="Введите Ваш Логин"
+            class="form-control"
+            id="login"
+            formControlName="login"
+            >
+            <span *ngIf="formLog.get('login')?.touched">
+                <span class="text-error"
+                      *ngIf="formLog.get('login')?.errors?.required"
+                >Это поле не должно оставаться пустым
+                </span>
+            </span>
+        </div>
+        <div>
+            <label for="name">Ваш Пароль:</label>
+            <input type="text"
+            placeholder="Введите Ваш Пароль"
+            class="form-control"
+            formControlName="password"
+            >
+            <span *ngIf="formLog.get('password')?.touched">
+                <span class="text-error"
+                      *ngIf="formLog.get('password')?.errors?.required"
+                >Это поле не должно оставаться пустым
+                </span>
+            </span>
+        </div>
+        <div>
+            <br>
+            <button type="submit" class="btn btn-info" [disabled]="formLog.invalid" (click) = "enter(formLog)">Войти</button>
+        </div>
+        <div class="ask">
+            <br>
+            Нет аккаунта?<a [routerLink]="['/registration']"> Зарегестрироваться</a>
+        </div>
+    </form>
+    </div>
+    

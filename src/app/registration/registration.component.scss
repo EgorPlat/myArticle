@@ -1,0 +1,79 @@
+.registration {
+    margin-top: 5%;
+    display: grid;
+    margin-left: 40%;
+}
+.registration button {
+    width: 150px;
+    margin-left: 25px;
+    border: 1px solid blueviolet;
+    height: 40px;
+    color: white;
+    background-color: blueviolet;
+}
+.registration button:hover {
+    cursor: pointer;
+    transition-duration: .1s;
+    transform: scale(1.1)
+}
+.registration input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+//Медиа-запросы
+@media (min-width: 451px) and (max-width: 540px) {
+    .registration button { 
+        width: 100%;
+        margin-left: -95px;
+    }
+    .registration input { 
+        width: 100%;
+        margin-left: -100px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .registration button { 
+        width: 100%;
+        margin-left: -75px;
+    }
+    .registration input { 
+        width: 100%;
+        margin-left: -80px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .registration button { 
+        width: 100%;
+        margin-left: -70px;
+    }
+    .registration input { 
+        width: 100%;
+        margin-left: -75px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .registration button { 
+        width: 100%;
+        margin-left: -60px;
+    }
+    .registration input { 
+        width: 100%;
+        margin-left: -65px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .registration button { 
+        width: 100%;
+        margin-left: -50px;
+    }
+    .registration input { 
+        width: 100%;
+        margin-left: -55px;
+    }
+}
+

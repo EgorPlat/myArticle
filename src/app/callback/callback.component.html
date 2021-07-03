@@ -1,0 +1,11 @@
+<div class="callBackMenu">
+    <div class="row">
+        <h3 id="header">Используйте контакты для связи с нами:</h3>
+    </div>
+    <div class="row">
+        <div class="col" *ngFor = "let way of collectionOfCallbackWays" align = "center">
+         <h2>{{way.name | uppercase}}: <span id="addressSpan">{{way.address}}</span></h2>
+         <img src="{{way.src}}" alt="{{way.name}}" class="basketImage">
+        </div>
+    </div>
+</div>

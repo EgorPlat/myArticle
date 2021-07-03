@@ -1,0 +1,23 @@
+.profileTitle {
+    height: 350px;
+}
+.profileSetting {
+    color: white;
+}
+#profileImg {
+    height: 250px;
+    width: 250px;
+    margin-left: 42%;
+}
+h3 {
+    color: white;
+}
+input {
+    margin-left: 20px;
+}
+.sosMessage {
+    color: aquamarine;
+}
+.sosMessage:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,102 @@
+div.scrollTable {
+    overflow: auto;
+    height: 600px;
+  }
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    background-color: white;
+    }
+    th {
+    padding: 10px 20px;
+    background: #69acd8;
+    color: #3e8085;
+    border-right: 2px solid; 
+    font-size: 0.9em;
+
+    }
+    th:first-child {
+    text-align: left;
+    }
+    th:last-child {
+    border-right: none;
+    }
+    td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid #3e8085;
+    border-bottom: 2px solid #3e8085;
+    border-right: 2px solid #3e8085;
+    color: black;
+    }
+    td:first-child {
+    border-left: 2px solid #3e8085;
+    border-right: none;
+    }
+    td:nth-child(2){
+    text-align: left;
+    }
+.basketImages {
+    width: 100px;
+    height: 100px;
+}
+.deleteBtn {
+    color: aliceblue;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.moreInfo {
+    color: white;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+}
+.moreInfoCont {
+    height: 720px;
+    width: 900px;
+    background-color: beige;
+    position: absolute;
+    right: 20%;
+    top: 5%;
+}
+.invisible {
+    display: none;
+}
+#closeDialog {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.moreImage {
+    width: 435px;
+    height: 720px;
+}
+.basketInfo {
+    height: 20px;
+    background-color: aliceblue;
+    color: darkgreen;
+}
+.deliveryBlock {
+    margin-bottom: 25%;
+}
+#buttonDelivery {
+    border: none;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: rgb(74, 180, 139);
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin-bottom: 1%;
+}
+#buttonDelivery:hover {
+    cursor: pointer;
+}

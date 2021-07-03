@@ -1,0 +1,16 @@
+#canvas {
+    background-color: aliceblue;
+    margin: 5%;
+}
+.barInfo{
+    background-color: aliceblue;
+    margin: 5%;
+}
+ul>li {
+    margin-top: 1.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}

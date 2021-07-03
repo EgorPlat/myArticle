@@ -1,0 +1,332 @@
+{  
+   "orders": [
+       { 
+         "id": 1,
+         "name": "Egor Platonov",
+         "reason": "Обслуживание",
+         "text": "Добрый день! Хочу оставить свой первый отзыв о вашем сервисе - как по мне, это отличный способ затарится вещами не выходя из дома, все довольно просто и понятно в использовании"
+       },
+       {
+        "id": 2,
+        "name": "Danila Platonov",
+        "reason": "Обслуживание",
+        "text": "Добрый день! Хочу оставить свой первый отзыв о вашем сервисе - как по мне, это отличный способ затарится вещами не выходя из дома, все довольно просто и понятно в использовании"
+      },
+      {
+        "id": 3,
+        "name": "Marina Platonova",
+        "reason": "Обслуживание",
+        "text": "Добрый день! Хочу оставить свой первый отзыв о вашем сервисе - как по мне, это отличный способ затарится вещами не выходя из дома, все довольно просто и понятно в использовании"
+      },
+      {
+        "id": 4,
+        "name": "Olga Safronova",
+        "reason": "Обслуживание",
+        "text": "Добрый день! Хочу оставить свой первый отзыв о вашем сервисе - как по мне, это отличный способ затарится вещами не выходя из дома, все довольно просто и понятно в использовании"
+      }
+   ],
+   "users": [
+       {
+           "name": "Egor Platonov",
+           "login": "egorplatonov2002@gmail.com",
+           "password": "355473287",
+           "image": "https://an-olimp.com/img/placeholders/profile.png"
+       },
+       {
+        "name": "Danila Platonov",
+        "login": "daniilplatonov2002@gmail.com",
+        "password": "355473288",
+        "image": "https://an-olimp.com/img/placeholders/profile.png"
+    }
+   ],
+   "category": [
+     {
+       "id": 1,
+       "name": "блузки"
+     },
+     {
+      "id": 2,
+      "name": "куртки"
+    },
+    {
+      "id": 3,
+      "name": "кофты"
+    },
+    {
+      "id": 4,
+      "name": "платья"
+    },
+    {
+      "id": 5,
+      "name": "бежутерия"
+    }
+   ],
+   "catalog": [
+    {   
+        "article": 1,
+        "name": "Блузка белая",
+        "price": 1700,
+        "description": "Состав: Хлопок 75%, синтетические материалы 25%",
+        "type": "блузки",
+        "photo": "https://girlway.com.ru/img/0/0/fcf8b8768aac1121b6981e32782928aa_1400x1960.jpg",
+        "discount": true,
+        "like": 10,
+        "solo_like": false,
+        "country": "Италия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://a.lmcdn.ru/img389x562/O/O/OO001EWNDX54_3928736_1_v4.jpg",
+            "img2": "http://g01.a.alicdn.com/kf/HTB14qNIdRWD3KVjSZKPq6yp7FXas.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 2,
+        "name": "Блузка черная",
+        "price": 2199,
+        "description": "Состав: Хлопок 100%",
+        "type": "блузки",
+        "photo": "https://image01.bonprix.ru/assets/1400x1960/1450187615/15065336-xzM2StL6.jpg",
+        "discount": true,
+        "like": 20,
+        "solo_like": false,
+        "country": "Турция",
+        "is_here": false,
+        "moreImage": [
+          {
+            "img1": "https://cdn.laredoute.com/products/680by680/e/d/2/ed2f808146b75a98a5f0b741e9434b69.jpg",
+            "img2": "https://cdn.laredoute.com/products/a/3/5/a35db0485db813d31aa3f4a9ec36d155.jpg?width=680"
+          }
+        ]
+      },
+      { 
+        "article": 3,
+        "name": "Блузка длинный рукав",
+        "price": 1999,
+        "description": "Состав: Хлопок 100%",
+        "type": "блузки",
+        "photo": "https://image01.bonprix.ru/assets/1400x1960/1520322478/18069962-ogDQqMDG.jpg",
+        "discount": false,
+        "like": 30,
+        "solo_like": false,
+        "country": "Турция",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "http://ubki-online.ru/d/img_2906_1_0.jpg",
+            "img2": "https://k.memah.org/img/products/51152-zhenskie-krasivye-oborki-pled-plissirovannye-rubashki-knopki-dlinnye-rukava-v-kletku-zhenskie-osennie-povsednevnye-topy-blusas.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 4,
+        "name": "Блузка-поло",
+        "price": 2399,
+        "description": "Состав: Хлопок 100%",
+        "type": "блузки",
+        "photo": "https://mmedia.ozone.ru/multimedia/1015936493.jpg",
+        "discount": false,
+        "like": 20,
+        "solo_like": false,
+        "country": "Италия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://images.ua.prom.st/1928398506_w200_h200_bluza-krasnaya-s.jpg",
+            "img2": "https://media2.24aul.ru/imgs/400x800/5c7a7a94cd5d8c00014cce37/bluzka-razmer-46-48-concept-club-1-13314732.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 5,
+        "name": "Блузка в крапинку",
+        "price": 1999,
+        "description": "Состав: Хлопок 100%",
+        "type": "блузки",
+        "photo": "https://белгород.скидкагид.рф/images/prodacts/sourse/67973/67973101_bluzka-s-printom-i-liniey-pugovits-bonprix-91747081.jpg",
+        "discount": false,
+        "like": 10,
+        "solo_like": false,
+        "country": "Россия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://ae01.alicdn.com/kf/HTB1FZOwXKL2gK0jSZFmq6A7iXXav/-.jpg",
+            "img2": "http://i00.i.aliimg.com/img/pb/753/580/681/681580753_526.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 6,
+        "name": "Блузка красная",
+        "price": 1699,
+        "description": "Состав: Хлопок 75%, синтетические материалы 25%",
+        "type": "блузки",
+        "photo": "https://image01.bonprix.ru/assets/1400x1960/0/19237248-vjX5iS8R.jpg",
+        "discount": true,
+        "like": 40,
+        "solo_like": false,
+        "country": "Россия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://sally.com.ua/upload/resize_cache/iblock/60a/1600_2200_140cd750bba9870f18aada2478b24840a/60afa260ecc947cf8fa6057b2a8045ac.jpg",
+            "img2": "https://img1.wbstatic.net/big/new/360000/362359-1.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 7,
+        "name": "Блузка бежевая",
+        "price": 1699,
+        "description": "Состав: Хлопок 75%, синтетические материалы 25%",
+        "type": "блузки",
+        "photo": "https://a.lmcdn.ru/product/L/I/LI687EWOTC37_4167633_1_v4.jpg",
+        "discount": true,
+        "like": 50,
+        "solo_like": false,
+        "country": "Турция",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://static.kupivip.ru/test/V0/03/19/49/34/adzhedo-bluza-1b.jpg",
+            "img2": "https://ae01.alicdn.com/kf/HTB10_eMXyOYBuNjSsD4q6zSkFXa9/Darcydebie-Women-Sheer-Blouses-Chiffon-Blouse-Semi-Sheer-Sexy-Women-Shirts-Lace-up-Single-Breasted-Lady.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 8,
+        "name": "Кофта утепленная белая",
+        "price": 3699,
+        "description": "Состав: Хлопок 95%, синтетические материалы 5%",
+        "type": "кофты",
+        "photo": "http://www.4shopping.ru/media/coll/2012/02/4169/mango-4169-spring-summer-2012-0610.jpg",
+        "discount": true,
+        "like": 10,
+        "solo_like": false,
+        "country": "Италия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://ae01.alicdn.com/kf/HTB17CtSm4TI8KJjSspiq6zM4FXaF/-.jpg",
+            "img2": "https://images.ru.prom.st/771634018_w200_h200_sviter-s-vysokim.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 9,
+        "name": "Кофта в бежевом цвете",
+        "price": 3699,
+        "description": "Состав: Хлопок 95%, синтетические материалы 5%",
+        "type": "кофты",
+        "photo": "https://cdn-images.farfetch-contents.com/14/83/07/97/14830797_24363062_1000.jpg",
+        "discount": true,
+        "like": 30,
+        "solo_like": false,
+        "country": "Испания",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://cs5.livemaster.ru/storage/78/df/be7733636f8115cc522244e5753b--odezhda-shirokij-bezhevyj-sviter-s-kosami.jpg",
+            "img2": "http://ae01.alicdn.com/kf/H57fbf6f32d084926877cfbf5544687b5e/-.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 10,
+        "name": "Платье вечернее",
+        "price": 3799,
+        "description": "Синтетические материалы",
+        "type": "платья",
+        "photo": "https://smartshopper.ru/img/aHR0cHM6Ly9pbWFnZTAxLmJvbnByaXgucnUvYXNzZXRzLzE0MDB4MTk2MC8xNDg1Nzg0ODQ3LzE3MDIxMjM0LTdZWFkxcXVCLmpwZw==.jpg",
+        "discount": true,
+        "like": 67,
+        "solo_like": false,
+        "country": "Италия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://ae01.alicdn.com/kf/HTB1jya3buOSBuNjy0Fdq6zDnVXaB/Belle-Vestidos-Mujer.jpg",
+            "img2": "https://ae01.alicdn.com/kf/HTB1I85LyByWBuNkSmFPq6xguVXaM/-.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 11,
+        "name": "Платье в голубом оттенке",
+        "price": 4699,
+        "description": "Состав: Хлопок 75%, синтетические материалы 25%",
+        "type": "платья",
+        "photo": "https://cdn-images.farfetch-contents.com/13/80/60/85/13806085_17452482_1000.jpg",
+        "discount": false,
+        "like": 20,
+        "solo_like": false,
+        "country": "Турция",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "http://luciana-shop.ru/image/cache/data/Donna-Saggia/DSP-150-37t-900x1350.jpg",
+            "img2": "http://luciana-shop.ru/image/cache/data/Donna-Saggia/DSP-150-37t-1-900x1350.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 12,
+        "name": "Куртка с опушкой",
+        "price": 7699,
+        "description": "Куртка, утепленная с искусственным мехом",
+        "type": "куртки",
+        "photo": "https://image01.bonprix.ru/assets/1400x1960/1507623422/13081246-ySNwOHcC.jpg",
+        "discount": false,
+        "like": 30,
+        "solo_like": false,
+        "country": "Италия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://skygear.ru/upload/iblock/e0c/e0c730ff86f54de6af2e54e92eefa2c9.jpg",
+            "img2": "https://images.ru.prom.st/471611727_w640_h640_zhenskaya-parka-s.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 13,
+        "name": "Куртка с подкладкой",
+        "price": 7699,
+        "description": "Куртка, утепленная с искусственным мехом",
+        "type": "куртки",
+        "photo": "https://skidka-ekb.ru/images/prodacts/sourse/67446/67446560_kurtka-parka-na-flisovoy-podkladke-bonprix-97327781.jpg",
+        "discount": false,
+        "like": 90,
+        "solo_like": false,
+        "country": "Россия",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://a.lmcdn.ru/product/Z/D/ZD002EWGQZX6_9675842_1_v1_2x.jpg",
+            "img2": "https://i.pinimg.com/736x/29/9e/b4/299eb4a5696510cbadc6032a401dbc46.jpg"
+          }
+        ]
+      },
+      { 
+        "article": 14,
+        "name": "Куртка зима-осень",
+        "price": 7699,
+        "description": "Куртка, утепленная с искусственным мехом",
+        "type": "куртки",
+        "photo": "https://im0-tub-ru.yandex.net/i?id=a37a63b594d4035c47f349469cd2e250&ref=rim&n=33&w=147&h=188",
+        "discount": false,
+        "like": 100,
+        "solo_like": false,
+        "country": "Турция",
+        "is_here": true,
+        "moreImage": [
+          {
+            "img1": "https://ae01.alicdn.com/kf/HTB16WlTXXzqK1RjSZFoq6zfcXXaJ/2018.jpg",
+            "img2": "https://ae01.alicdn.com/kf/HTB1DKfTEhSYBuNjSsphq6zGvVXaN.jpg"
+          }
+        ]
+      }
+   ]
+}
